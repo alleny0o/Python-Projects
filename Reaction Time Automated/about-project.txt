@@ -1,0 +1,15 @@
+This Python code is automating interactions with the website cps-check.com/reaction-test to measure reaction time.
+
+It does the following:
+
+1. Opens up a Chrome browser using Selenium.
+2. Navigates to the reaction test website.
+3. Waits up to 5 seconds for the page to load the reaction div element.
+4. Clicks on the reaction div to start the test.
+5. Waits up to 20 seconds for the text "Click!" to appear after the button turns green.
+6. Enters a loop that continuously checks for the "Click!" text on the button.
+7. When "Click!" is detected, it clicks the button.
+8. Pauses for 10 seconds.
+9. Quits the Chrome browser.
+
+Skills used: Selenium and XPath
